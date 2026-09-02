@@ -1,0 +1,68 @@
+{
+  "sample_index": 3075,
+  "latitude": 11.419415611116106,
+  "longitude": 79.79232576135398,
+  "label": "Real India location (Natural Earth boundary); benchmark tile, not a verified parcel",
+  "selection_reason": "highest mean NDVI among bbox candidates verified inside India; cloud fraction used as the ranking tiebreak",
+  "candidate_count": 14,
+  "selection_quality": {
+    "index": 3075,
+    "longitude": 79.79232576135398,
+    "latitude": 11.419415611116106,
+    "missing_fraction": 0.0,
+    "cloud_probability_fraction": 0.0,
+    "s2cloudless_fraction": 0.063720703125,
+    "mean_cloud_probability": 0.1595458984375,
+    "mean_s2cloudless_probability": 4.8013916015625,
+    "mean_ndvi": 0.5411991672527856,
+    "inside_india_polygon": true,
+    "cloud_fraction": 0.063720703125
+  },
+  "crs": "EPSG:32644",
+  "native_pixel_metres": 10.0,
+  "tile_shape": [
+    12,
+    128,
+    128
+  ],
+  "footprint_width_m": 1280.0,
+  "footprint_height_m": 1280.0,
+  "footprint_area_ha": 163.84000000000006,
+  "field_soc_g_per_kg": 27.211780548095703,
+  "patch_soc_min": -3.8192825317382812,
+  "patch_soc_max": 16.216522216796875,
+  "patch_soc_grid": [
+    [
+      3.0222091674804688,
+      3.5108871459960938,
+      15.72784423828125,
+      14.261810302734375
+    ],
+    [
+      -1.8645706176757812,
+      3.5108871459960938,
+      -2.3532485961914062,
+      15.72784423828125
+    ],
+    [
+      13.284454345703125,
+      0.09014129638671875,
+      -3.8192825317382812,
+      0.5788192749023438
+    ],
+    [
+      10.841064453125,
+      3.9995651245117188,
+      16.216522216796875,
+      9.86370849609375
+    ]
+  ],
+  "confidence": "LOW",
+  "confidence_reason": "LOW \u2014 only 0.18% of benchmark samples fall in the broad India bbox; no local calibration.",
+  "mean_ndvi": 0.5411991477012634,
+  "advisory_rule": "BARE-SOIL REVISIT",
+  "advisory_text": "Vegetation signal is high; obtain a cloud-free post-harvest scene before soil interpretation.",
+  "checkpoint_epoch": 7,
+  "device": "cuda:0",
+  "figure": "<workdir>/work/soil-poc/artifacts/parcel_demo/field_report_card.png"
+}

@@ -1,0 +1,57 @@
+{
+  "checkpoints": [
+    {
+      "slot": 0,
+      "seed": 20260901,
+      "best_epoch": 6,
+      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_0/best_model.pt"
+    },
+    {
+      "slot": 1,
+      "seed": 20260902,
+      "best_epoch": 7,
+      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_1/best_model.pt"
+    },
+    {
+      "slot": 2,
+      "seed": 20260903,
+      "best_epoch": 9,
+      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_2/best_model.pt"
+    },
+    {
+      "slot": 3,
+      "seed": 20260904,
+      "best_epoch": 3,
+      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_3/best_model.pt"
+    },
+    {
+      "slot": 4,
+      "seed": 20260905,
+      "best_epoch": 8,
+      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_4/best_model.pt"
+    }
+  ],
+  "checkpoint_source": "continental transfer five-seed run",
+  "regions": {
+    "north_america_holdout": 558,
+    "europe_transfer": 289
+  },
+  "low_confidence_definition": "sample SD > North America holdout 75th percentile",
+  "low_confidence_threshold_std_gkg": 42.2471923828125,
+  "north_america": {
+    "n": 558,
+    "median_disagreement_gkg": 15.978386878967285,
+    "mean_disagreement_gkg": 28.350788116455078,
+    "low_confidence_fraction": 0.25089605734767023,
+    "any_seed_negative_fraction": 0.25268817204301075,
+    "ensemble_mean_negative_fraction": 0.02867383512544803
+  },
+  "europe": {
+    "n": 289,
+    "median_disagreement_gkg": 40.1955451965332,
+    "mean_disagreement_gkg": 43.33211898803711,
+    "low_confidence_fraction": 0.4532871972318339,
+    "any_seed_negative_fraction": 0.05536332179930796,
+    "ensemble_mean_negative_fraction": 0.0034602076124567475
+  }
+}

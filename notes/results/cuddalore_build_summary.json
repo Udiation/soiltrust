@@ -1,0 +1,21 @@
+{
+  "district_features": 1,
+  "village_features": 870,
+  "sample_3075": {
+    "longitude": 79.79232576135398,
+    "latitude": 11.419415611116106,
+    "inside_cuddalore_polygon": true
+  },
+  "sentinel2_footprint": {
+    "source_crs": "EPSG:32644",
+    "pixels": [
+      128,
+      128
+    ],
+    "pixel_size_metres": [
+      10.0,
+      10.0
+    ],
+    "area_hectares": 163.84
+  }
+}
