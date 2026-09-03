@@ -64,5 +64,5 @@
   "advisory_text": "Vegetation signal is high; obtain a cloud-free post-harvest scene before soil interpretation.",
   "checkpoint_epoch": 7,
   "device": "cuda:0",
-  "figure": "<workdir>/work/soil-poc/artifacts/parcel_demo/field_report_card.png"
+  "figure": "../../figures/field_report_card.png"
 }

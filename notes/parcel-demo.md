@@ -62,6 +62,6 @@ this location.
 
 ## Outputs
 
-- Report card: `<workdir>/work/soil-poc/artifacts/parcel_demo/field_report_card.png`
-- Machine-readable details: `<workdir>/work/soil-poc/artifacts/parcel_demo/parcel_demo.json`
-- Script: `<workdir>/work/soil-poc/parcel_demo.py`
+- Report card: `../figures/field_report_card.png`
+- Machine-readable details: `results/parcel_demo.json`
+- Script: `../code/parcel_demo.py`

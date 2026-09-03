@@ -45,6 +45,6 @@ evidence not to trust a point estimate.
 
 ## Outputs
 
-- Figure: `<workdir>/work/soil-poc/artifacts/confidence_map/soil_confidence_map.png`
-- Per-tile predictions: `<workdir>/work/soil-poc/artifacts/confidence_map/tile_predictions.csv`
-- Machine-readable summary: `<workdir>/work/soil-poc/artifacts/confidence_map/summary.json`
+- Figure: `../figures/soil_confidence_map.png`
+- Per-tile predictions: `results/tile_predictions.csv`
+- Machine-readable summary: `results/confidence_summary.json`

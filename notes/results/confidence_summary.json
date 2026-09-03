@@ -4,31 +4,31 @@
       "slot": 0,
       "seed": 20260901,
       "best_epoch": 6,
-      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_0/best_model.pt"
+      "checkpoint": "<workdir>/soil-poc/continental_runs/deep_seed_0/best_model.pt"
     },
     {
       "slot": 1,
       "seed": 20260902,
       "best_epoch": 7,
-      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_1/best_model.pt"
+      "checkpoint": "<workdir>/soil-poc/continental_runs/deep_seed_1/best_model.pt"
     },
     {
       "slot": 2,
       "seed": 20260903,
       "best_epoch": 9,
-      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_2/best_model.pt"
+      "checkpoint": "<workdir>/soil-poc/continental_runs/deep_seed_2/best_model.pt"
     },
     {
       "slot": 3,
       "seed": 20260904,
       "best_epoch": 3,
-      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_3/best_model.pt"
+      "checkpoint": "<workdir>/soil-poc/continental_runs/deep_seed_3/best_model.pt"
     },
     {
       "slot": 4,
       "seed": 20260905,
       "best_epoch": 8,
-      "checkpoint": "<workdir>/work/soil-poc/continental_runs/deep_seed_4/best_model.pt"
+      "checkpoint": "<workdir>/soil-poc/continental_runs/deep_seed_4/best_model.pt"
     }
   ],
   "checkpoint_source": "continental transfer five-seed run",
